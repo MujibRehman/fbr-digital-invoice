@@ -1,0 +1,51 @@
+.invoice-list-controls {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 24px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.invoice-list-controls > .toolbar {
+  margin-bottom: 0;
+}
+.invoice-list-page-size {
+  margin-left: auto;
+}
+.invoice-list-page-size label {
+  margin-bottom: 0;
+  min-width: 130px;
+}
+.invoice-list-footer .pagination {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+}
+.invoice-list-footer .pagination > button:first-child {
+  justify-self: start;
+}
+.invoice-list-footer .pagination > .muted {
+  text-align: center;
+  font-size: 14px;
+}
+.invoice-list-footer .pagination > button:last-child {
+  justify-self: end;
+}
+@media (max-width: 700px) {
+  .invoice-list-controls > .toolbar {
+    flex: 1 1 100%;
+  }
+  .invoice-list-footer .pagination {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
+    gap: 8px;
+  }
+  .invoice-list-footer .pagination > button {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
+
+.invoice-list-footer .pagination > button:disabled {
+  cursor: default;
+}

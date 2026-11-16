@@ -1,0 +1,11 @@
+{
+  "src/invoices/invoices.service.js": "53a2a2cae3330e3d94a16618db70824a11f6e9a73925db8be8790e8581db9950",
+  "src/invoices/invoices.routes.js": "950a3f78a22552cb5a9ab0a54627a7e681538cd7cba6b201e16f32761a92b786",
+  "src/config/env.js": "333945dbdb64cfdc41969656f763a3525ff193061b58a0b00d291a473caa9713",
+  "src/fbr/fbr.validator.js": "549cf53a0701b73c4bf2c91223cce7277e8c7b4747cf697eb6a9d4c33252cf16",
+  "frontend/pages/Invoices.jsx": "44f6a89ebf39d5783addd11566adf822e300c8d7dbcb7451bf1f1bbefbd8d83e",
+  "src/fbr/fbr.client.js": "e4e1cd19beda8109d313580cc964092d1e2a6b05765fe559fba16b3f3fb3d3fa",
+  "src/fbr/fbr.service.js": "75afc4bb6d8f2be182f162bf4154add03c017658d7c4d13f9d5ece34cd9ce333",
+  "src/fbr/fbr.rates.js": "c2252321f23985db8c716859ece4222538446e54d6de752c4a6e6213fb382a76",
+  "shared/invoice-money.js": "037720171e632842416c36d3ce490359785cc24993ff14181a9467881753cf93"
+}

@@ -1,0 +1,74 @@
+# Dependencies and generated frontend/test output
+node_modules/
+dist/
+coverage/
+.vite/
+
+# Local and deployed configuration; keep placeholder templates
+.env
+.env.*
+.envrc
+.envrc.*
+*.env
+*.env.*
+!.env.example
+!.env.sandbox.example
+!.env.production.example
+
+# Databases, runtime data, private exports and deployment artifacts
+.local/
+backups/
+private/
+secrets/
+credentials/
+exports/
+.aws/
+.ssh/
+test-results/
+running-container/
+output/
+*.dump
+*.dump.*
+*.sql
+!migrations/**/*.sql
+*.sql.gz
+*.sql.bz2
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.csv
+*.tsv
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Credentials and certificates
+.npmrc
+.netrc
+.pgpass
+credentials*.json
+service-account*.json
+id_rsa
+id_ed25519
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and machine-specific files
+*.log
+.DS_Store
+__MACOSX/
+._*
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Local deployment assets, detailed documentation and sandbox invoice examples
+/Dockerfile
+/DEPLOYMENT.md
+/docs/
+/deploy/
+/shared/sandbox-payloads.json
